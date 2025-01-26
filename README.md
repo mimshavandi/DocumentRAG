@@ -1,6 +1,7 @@
 # RAG Implementation with Azure Cognitive Search and OpenAI
 
-This repository demonstrates how to build a Retrieval-Augmented Generation (RAG) chatbot using Azure Cognitive Search for document retrieval and OpenAI's GPT models for generating responses. The chatbot includes:
+This repository demonstrates how to build a Retrieval-Augmented Generation (RAG) chatbot using Azure AI Search for document retrieval and OpenAI's GPT models for generating responses. The chatbot includes:
+- **Index setup**
 - **Document embedding and indexing**
 - **User-specific data filtering**
 - **Short-term memory for conversation history**
@@ -20,11 +21,11 @@ This repository demonstrates how to build a Retrieval-Augmented Generation (RAG)
 1. Clone the Repository  
 2. Set Up Environment Variables  
 Create a file named local.env in the root directory with the following content:  
-ACS_ENDPOINT=<Your Azure Cognitive Search Endpoint>  
-ACS_API_KEY=<Your Azure Cognitive Search API Key>  
+ACS_ENDPOINT='<Your Azure Cognitive Search Endpoint>'
+ACS_API_KEY='<Your Azure Cognitive Search API Key>'  
 ACS_INDEX_NAME=knowledge-index  
-AZURE_OPENAI_ENDPOINT=<Your Azure OpenAI Endpoint>  
-AZURE_OPENAI_API_KEY=<Your Azure OpenAI API Key>   
+AZURE_OPENAI_ENDPOINT='<Your Azure OpenAI Endpoint>'  
+AZURE_OPENAI_API_KEY='<Your Azure OpenAI API Key>'   
 AZURE_OPENAI_ENGINE=text-embedding-ada-002 (based on what model you deploy in your Azure OpenAI)   
 OPENAI_CHAT_MODEL=gpt-4 (based on what model you deploy in your Azure OpenAI)  
 CURRENT_USER_ID=userXYZ  
