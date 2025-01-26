@@ -1,4 +1,4 @@
-# RAG Implementation with Azure Cognitive Search and OpenAI
+# RAG Implementation with Azure AI Search and Azure OpenAI
 
 This repository demonstrates how to build a Retrieval-Augmented Generation (RAG) chatbot using Azure AI Search for document retrieval and OpenAI's GPT models for generating responses. The chatbot includes:
 - **Index setup**
@@ -13,7 +13,7 @@ This repository demonstrates how to build a Retrieval-Augmented Generation (RAG)
 
 ## Prerequisites
 1. Python 3.8 or higher
-2. Azure Cognitive Search resource
+2. Azure AI Search resource
 3. Azure OpenAI resource
 4. Install Python dependencies
 
