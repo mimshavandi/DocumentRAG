@@ -8,7 +8,7 @@
     {
       "fieldType": "text",
       "fieldName": "Company Name",
-      "value": "DigiNote"
+      "value": "Microsoft"
     },
     {
       "fieldType": "text",
@@ -66,11 +66,11 @@
       "fieldType": "address",
       "fieldName": "HomeAddress",
       "value": {
-        "line1": "Niederkasseler Kirchweg 85",
-        "line2": "DigiNote",
-        "city": "Dusseldorf",
-        "state": "NRW",
-        "zip": "40547"
+        "line1": "Wagner Street",
+        "line2": "Apt 4",
+        "city": "NY",
+        "state": "",
+        "zip": "10047"
       }
     },
     {
