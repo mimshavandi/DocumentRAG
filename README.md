@@ -10,8 +10,6 @@ This repository demonstrates how to build a Retrieval-Augmented Generation (RAG)
 - Filters results by user ID to ensure secure and relevant data access.
 - Maintains short-term memory of the conversation for context-aware responses.
 
----
-
 ## Prerequisites
 1. Python 3.8 or higher
 2. Azure Cognitive Search resource
@@ -43,17 +41,17 @@ python main.py
 python user_query.py
 
 ## File Overview
-# azure_vector_helper.py: 
+### azure_vector_helper.py: 
 Manages Azure Cognitive Search REST API interactions for creating and updating the index.
-# embedding_helper.py: 
+### embedding_helper.py: 
 Generates embeddings using Azure OpenAI.
-# flatten_helper.py: 
+### flatten_helper.py: 
 Serializes structured documents into plain text for embedding.
-# indexing_helper.py: 
+### indexing_helper.py: 
 Handles adding documents to the Azure Cognitive Search index.
-# search_helper.py: 
+### search_helper.py: 
 Retrieves documents using vector search, filtered by user ID.
-# main.py: 
+### main.py: 
 Processes and indexes documents.
-# user_query.py: 
+### user_query.py: 
 Manages chatbot interactions and maintains conversation history.
